@@ -1,0 +1,494 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:background="#00334b" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Employee Management System"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Create New user here"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="280dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_UserName"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="User Name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLength="33"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_name"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user name"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_cell"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="Cell No"
+                        android:imeOptions="actionNext"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_cell"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user cell no"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_experience"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="Experience"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_experience"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user experience"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_salary"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="Current Salary"
+                        android:imeOptions="actionNext"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_salary"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user salary"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_join_date"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="Joining Date"
+                        android:imeOptions="actionNext"
+                        android:inputType="date"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_joindate"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user joining date"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_designiation"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="Designiation"
+                        android:imeOptions="actionNext"
+                        android:inputType="textAutoCorrect"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_designation"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user designation"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_idcardnumber"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="Id card Number"
+                        android:imeOptions="actionNext"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_idcardno"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user id card no"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal" >
+
+                    <EditText
+                        android:id="@+id/txt_Address"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#ffffff"
+                        android:hint="Address"
+                        android:imeOptions="actionNext"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:gravity="center_horizontal" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#008000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hintc_address"
+                        android:layout_width="230dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Please enter user address"
+                        android:textColor="#ff0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal" >
+
+                    <Button
+                        android:id="@+id/btnSave"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="#008000"
+                        android:text="Press Ok"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

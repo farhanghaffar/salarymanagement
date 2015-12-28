@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Salary Information</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+     <string name="menu_title">MENU</string>
+          <string name="menu_title1">MENU12</string>
+     
+     <string name="item_1">Item 1</string>
+     <string name="item_2">Item 2</string>
+     
+     <string name="description">Description</string>
+      <string name="login">Login</string>
+      <string name="signin">Sign In</string>
+      <string name="salary">Salary Management System</string>
+      
+     
+
+</resources>

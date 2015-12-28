@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Farhan"
+            android:textColor="#00334b"
+            android:textSize="20dp" />
+        <TextView 
+        
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/position"
+        android:textColor="#00334b"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:text="Android"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    
+    </LinearLayout>
+
+</LinearLayout>
